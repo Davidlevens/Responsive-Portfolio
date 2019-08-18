@@ -13,16 +13,18 @@ body {
 /* general */
 
 .container {
-  display: flex;
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
   clear: both;
 }
-.flex-container {
-  @media screen and (min-width: 640px){
-    display: flex;
-}
+
+
+
+.row2::after
+.row1
+
+
 
 h1,
 h2,
@@ -67,6 +69,11 @@ h3 {
   background: #ffffff;
   border-bottom: 2px solid #cccccc;
 }
+
+@media only screen (min-width: 768px){
+  #logo {
+    nav
+  }
 
 #logo {
   float: left;
@@ -113,6 +120,9 @@ footer {
   background: #666666;
   border-top: 8px solid #4aaaa5;
   height: 50px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 h3, h2 {
