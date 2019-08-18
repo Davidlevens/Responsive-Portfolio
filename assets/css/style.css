@@ -6,6 +6,7 @@ body {
   background: url("../images/concrete_seamless.png");
 }
 
+
 * {
   box-sizing: border-box;
 }
@@ -21,9 +22,13 @@ body {
 
 
 
-.row2::after
-.row1
+.row1 {
+  display: block;
+}
 
+.row2 {
+  display: block;
+}
 
 
 h1,
@@ -70,10 +75,7 @@ h3 {
   border-bottom: 2px solid #cccccc;
 }
 
-@media only screen (min-width: 768px){
-  #logo {
-    nav
-  }
+
 
 #logo {
   float: left;
