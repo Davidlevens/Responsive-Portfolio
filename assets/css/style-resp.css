@@ -1,0 +1,249 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.091vw;
+    line-height: 2.061vw;
+    color: #777777;
+    background: url("../images/concrete_seamless.png");
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* general */
+  
+  .container {
+    width: 100%;
+    max-width: 58.182vw;
+    margin: 0 auto;
+    clear: both;
+    overflow:auto;
+  }
+  
+  
+  
+  
+  
+  h1,
+  h2,
+  h3,
+  p {
+    margin-bottom: 1.212vw;
+  }
+  
+  p:last-child {
+    margin-bottom: 0;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: #4aaaa5;
+  }
+  
+  h1 {
+    padding-bottom: 1.212vw;
+    font-size: 1.818vw;
+    line-height: 2.97vw;
+    border-bottom: 0.182vw solid #dddddd;
+  }
+  
+  h2,
+  h3 {
+    font-size: 1.333vw;
+  }
+  
+  /* header */
+  
+  #masthead {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 1.818vw;
+    overflow: auto;
+    color: #ffffff;
+    background: #ffffff;
+    border-bottom: 0.121vw solid #cccccc;
+    overflow: hidden;
+  }
+  
+  
+  
+  #logo {
+     float: left;
+    width: 15.152vw;
+    height: 5.455vw;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 1.818vw;
+    font-weight: 700;
+    line-height: 5.455vw;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+  }
+  
+  nav {
+    flex-shrink: inherit;
+    float: right;
+    margin-top: 1.515vw;
+  }
+  
+  nav a {
+    display: inline-block;
+    padding-left: 0.909vw;
+    margin-left: 0.909vw;
+    line-height: 1.091vw;
+    color: #999;
+    text-decoration: none;
+    border-left: 0.061vw solid #efefef;
+  }
+  
+  nav a:first-child {
+    border-left: 0 none;
+  }
+  
+  @media (max-width: 46.545vw) {
+    .float-right-sm {
+      float: right;
+    }
+  }
+  
+  @media (min-width: 46.606vw) {
+    .float-right-lg {
+      float: right;
+    }
+  }
+  
+  .clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+  
+  
+  /* footer */
+  
+  footer {
+    padding: 1.818vw 0;
+    clear: both;
+    font-size: 0.727vw;
+    color: #ffffff;
+    color: #cccccc;
+    text-align: center;
+    background: #666666;
+    border-top: 0.485vw solid #4aaaa5;
+    height: 3.03vw;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h3, h2 {
+    padding-bottom: 1.212vw;
+    margin-bottom: 0.909vw;
+    line-height: 1.333vw;
+    border-bottom: 0.121vw solid #eeeeee;
+  }
+  
+  /* main */
+  
+  #main-container {
+    padding-top: 7.879vw;
+    min-height: calc(100vh - 4.242vw);
+  }
+  
+  .main-section {
+    float: left;
+    width: 100%;
+    max-width: 58.182vw;
+    padding: 1.818vw;
+    margin: 0 0 2.424vw;
+    background: #ffffff;
+    border: 0.061vw solid #dddddd;
+  }
+  
+  
+  /* portfolio page */
+  
+  .work {
+    position: relative;
+    float: left;
+    width: 16.606vw;
+    margin: 1.212vw 0 1.515vw;
+    overflow: auto;
+  }
+  
+  .work:nth-child(even) {
+    margin-right: 2.424vw;
+  }
+  
+  .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+  
+  .work h3 {
+    position: absolute;
+    bottom: 1.212vw;
+    width: 100%;
+    padding: 0.909vw;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 1.818vw;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+  }
+  
+  .auth-image {
+    float: left;
+    width: 12.121vw;
+    height: auto;
+    margin-top: 0.606vw;
+    margin-right: 1.515vw;
+  }
+  
+  /* contact page */
+  
+  #contact-form ul {
+    margin-bottom: 1.212vw;
+  }
+  
+  #contact-form li {
+    margin-bottom: 0.606vw;
+  }
+  
+  label,
+  input[type=text],
+  input[type=email],
+  textarea {
+    display: block;
+    width: 100%;
+  }
+  
+  input[type=text],
+  input[type=email],
+  textarea {
+    height: 2.121vw;
+    padding: 0 0.606vw;
+    font-size: 0.848vw;
+    border: 0.061vw solid #dddddd;
+  }
+  
+  textarea {
+    height: 12.121vw;
+  }
+  
+  input[type=submit] {
+    padding: 0.606vw 1.818vw;
+    font-size: 1.091vw;
+    color: #ffffff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
+  }

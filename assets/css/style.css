@@ -23,6 +23,7 @@ body {
 
 
 
+
 h1,
 h2,
 h3,
@@ -65,13 +66,13 @@ h3 {
   color: #ffffff;
   background: #ffffff;
   border-bottom: 2px solid #cccccc;
+  overflow: hidden;
 }
 
 
 
 #logo {
-  flex-shrink: inherit;
-  float: left;
+   float: left;
   width: 250px;
   height: 90px;
   font-family: Georgia, Times, "Times New Roman", serif;
@@ -103,6 +104,25 @@ nav a {
 nav a:first-child {
   border-left: 0 none;
 }
+
+@media (max-width: 768px) {
+  .float-right-sm {
+    float: right;
+  }
+}
+
+@media (min-width: 769px) {
+  .float-right-lg {
+    float: right;
+  }
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
 
 /* footer */
 
