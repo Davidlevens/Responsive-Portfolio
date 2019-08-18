@@ -6,7 +6,6 @@ body {
   background: url("../images/concrete_seamless.png");
 }
 
-
 * {
   box-sizing: border-box;
 }
@@ -18,17 +17,10 @@ body {
   max-width: 960px;
   margin: 0 auto;
   clear: both;
+  overflow:auto;
 }
 
 
-
-.row1 {
-  display: block;
-}
-
-.row2 {
-  display: block;
-}
 
 
 h1,
@@ -78,6 +70,7 @@ h3 {
 
 
 #logo {
+  flex-shrink: inherit;
   float: left;
   width: 250px;
   height: 90px;
@@ -92,6 +85,7 @@ h3 {
 }
 
 nav {
+  flex-shrink: inherit;
   float: right;
   margin-top: 25px;
 }
@@ -150,6 +144,7 @@ h3, h2 {
   background: #ffffff;
   border: 1px solid #dddddd;
 }
+
 
 /* portfolio page */
 
